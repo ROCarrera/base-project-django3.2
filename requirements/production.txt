@@ -1,0 +1,8 @@
+# PRECAUTION: avoid production dependencies that aren't in development
+
+-r base.txt
+
+# Django
+# ------------------------------------------------------------------------------
+django-storages[boto3]==1.11.1  # https://github.com/jschneier/django-storages
+django-anymail[sendgrid]==8.4  # https://github.com/anymail/django-anymail
